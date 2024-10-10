@@ -98,8 +98,8 @@ studentmanagement sm=new studentmanagement();
 System.out.println("helllo students");
 while(true){
 System.out.println("press 1 for add student");
-System.out.println("press 2 for delete ");
-System.out.println("press 3 for display");
+System.out.println("press 2 for delete student record ");
+System.out.println("press 3 for display all student ");
 System.out.println("press 0 for exit");
 int ch=sc.nextInt();
 switch(ch){
