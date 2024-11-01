@@ -92,7 +92,7 @@ e.printStackTrace();
 
 //----------------------------------------------------------------------------------------update
 void update(){
-System.out.println("student data updated successfully");
+System.out.println("comming soon...");
 }
 
 //--------------------------------------------------------------------------------------main method
