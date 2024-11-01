@@ -90,6 +90,11 @@ e.printStackTrace();
 }
 }
 
+//----------------------------------------------------------------------------------------update
+void update(){
+System.out.println("student data updated successfully");
+}
+
 //--------------------------------------------------------------------------------------main method
 
 public static void main(String[] args){
@@ -100,6 +105,7 @@ while(true){
 System.out.println("press 1 for add student");
 System.out.println("press 2 for delete student record ");
 System.out.println("press 3 for display all student ");
+System.out.println("press 4 for update student record");
 System.out.println("press 0 for exit");
 int ch=sc.nextInt();
 switch(ch){
@@ -111,6 +117,9 @@ sm.delete();
 break;
 case 3:
 sm.display();
+break;
+case 4:
+sm.update();
 break;
 case 0:
 System.exit(0);
