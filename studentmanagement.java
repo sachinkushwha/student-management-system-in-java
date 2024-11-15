@@ -17,7 +17,7 @@ ResultSet resultset=null;
 try{
 Connection con=getConnection();
 PreparedStatement pstm=con.prepareStatement(query);
-resultset=pstm.executeQuery(query);
+resultset=pstm.executeQuery();
 }catch(SQLException e){
 e.printStackTrace();
 }
